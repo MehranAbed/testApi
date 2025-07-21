@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <main>
+        <form dir="rtl">
+            <p>لطفا فرم را پر کنید</p>
+            <input type="text" placeholder="متراژ" class="type_text metr">
+            <input type="text" placeholder="زیربنا" class="type_text zbana">
+            <input type="text" placeholder="قیمت" class="type_text price">
+            <div class="sanad">
+                <div class="melk">
+                    <label for="melk">ملکی</label>
+                    <input type="radio" name="mehran" id="melk">
+                </div>
+                <div class="waghfi">
+                    <label for="waghfi">وقفی</label>
+                    <input type="radio" name="mehran" id="waghfi">
+                </div>
+            </div>
+            <input type="file" class="type_text file">
+            <input type="submit" value="ثبت" class="type_submit">
+        </form>
+            <div class="nameForm">
+            <h1>فورم ثبت ملک</h1>
+        </div>
+    </main>
     <script src="./app.js"></script>
 </body>
+
 </html>
